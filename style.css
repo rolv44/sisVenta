@@ -1,0 +1,97 @@
+* {margin:0;padding:0}
+html, body {height:100%}
+body {background:#fff;font-family:Arial, Helvetica, sans-serif;font-size:100%;line-height:1.25em;color:#4a4a4a}
+img {border:0;vertical-align:top;text-align:left}
+object {vertical-align:top;outline:none}
+ul, ol {list-style:none}
+.clear {clear:both}
+/* GLOBAL*/
+.container {width:960px;margin:0 auto;font-size:.875em;position:relative;}
+.containerLOGIN {width:657px;height: 50px; margin:0 auto;font-size:.875em;position:relative;}
+.loginPIE {width:665px;height: 50px; margin:0 auto;font-size:.875em;position:relative; top: 163px;text-align: center}
+#footer {background:url(images/footer-bg.gif) 0 0 repeat-x #f2f2f2;text-align:center;padding:45px 0; position: absolute;top: 515px;width: 1320px;}
+/* tailings */
+input, select, textarea {font-family:Arial, Helvetica, sans-serif; font-size:1em;vertical-align:middle;font-weight:normal}
+/* other */
+
+p {margin-bottom:20px}
+.p1 {margin-bottom:10px}
+.p2 {margin-bottom:20px}
+.p3 {margin-bottom:30px}
+/* txt, links, lines, titles */
+a {color:red;outline:none}
+a:hover {text-decoration:none}
+h1 {font-size:36px;line-height:1.2em;color:#d60c0c;font-weight:600;margin-bottom:22px}
+h1 span {display:block;font-size:30px;line-height:1.2em;color:#4a4a4a;margin-top:-10px}
+h1 em {display:block;font-style:normal;font-size:24px;line-height:1.2em;color:#919191}
+h2 {font-size:36px;line-height:1.2em;margin-bottom:10px}
+h2 em {font-size:14px;color:#838383;display:block;text-transform:uppercase;margin-top:-17px;font-weight:400}
+h3 {font-size:30px;line-height:1.2em;color:#4a4a4a;font-weight:400;margin-bottom:20px}
+h4 {font-size:1em;color:#d60c0c;margin-bottom:8px}
+h5 {font-size:1em;color:#d60c0c}
+h6 {font-size:1em}
+.txt1 {color:#d60c0c}
+.link1 {display:block;float:left;background:url(images/link1-bg.gif) left top repeat-x;color:#383838;text-decoration:none;text-shadow:1px 1px 0 #eee}
+.link1:hover {text-decoration:underline}
+.link1 em {display:block;background:url(images/link1-left.gif) no-repeat left top}
+.link1 b {display:block;background:url(images/link1-right.gif) no-repeat right top;padding:8px 15px 8px 15px;font-weight:normal; font-style:normal}
+.button {float:left;width:137px;height:40px;line-height:40px;color:#fff;text-align:center;text-decoration:none;background:url(images/button.gif) no-repeat 0 0}
+.button:hover {text-decoration:underline}
+.box {background:#f7f7f7;padding:30px 35px 36px 40px}
+.box1 {background:url(images/box1-bg.gif) no-repeat 100% 100% #b40303;padding:17px 18px 21px 19px;color:#ffd2d2}
+.box1 h4 {font-size:1em;color:#fff}
+.address {float:left}
+.address dt {margin-bottom:16px}
+.address dd {clear:both;text-align:right}
+.address dd span {float:left;padding-right:25px}
+/* header*/
+#footer {color:#5c5c5c}
+.zoom{transition: width 2s, height 2s, transform 2s; -moz-transition: width 2s, height 2s, -moz-transform 2s; -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+      -o-transition: width 2s, height 2s,-o-transform 2s;}
+.zoom:hover{transform : scale(1.5); -moz-transform : scale(1.5); -webkit-transform : scale(1.5); -o-transform : scale(1.5); }
+
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 15px;
+    margin: 8px ;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 15px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+.login {
+    width:50%;
+    height:300px;
+    position: absolute;
+    top: 90px; 
+    left:365px;
+     border: 3px solid #f1f1f1;
+}
+.login .containerLOGIN{
+    text-align: center;
+    padding-top: 37px;
+}
+/* Extra style for the cancel button (red) */
